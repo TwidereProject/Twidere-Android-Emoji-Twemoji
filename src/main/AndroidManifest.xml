@@ -40,9 +40,11 @@
             android:value="true"/>
         <meta-data
             android:name="org.mariotaku.twidere.extension.emoji.mipmap"
-            android:value="false"/>
+            android:value="true" />
 
-        <activity android:name=".AboutActivity">
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_emoji_name">
             <intent-filter>
                 <action android:name="org.mariotaku.twidere.EMOJI_SUPPORT_ABOUT"/>
                 <category android:name="android.intent.category.DEFAULT"/>
